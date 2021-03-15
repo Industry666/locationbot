@@ -1,6 +1,0 @@
-.idea
-/__pycache__/
-tools/__pycache__/
-tools/appandDB_config.py/
-tools/api_tools/__pycache__/
-tools/api_tools/database/__pycache__/
