@@ -6,7 +6,7 @@ class MyMessageHandler:
     @staticmethod
     def start_handler(update, context):
         context.bot.send_message(chat_id=update.effective_chat.id,
-                                 text="Привет! В этом боте ты можешь добавлять места которые ты хочещь посетить.\n"
+                                 text="Привет! В этом боте ты можешь добавлять места которые ты хочешь посетить.\n"
                                       "Введи команду /add для добавления места.\n"
                                       "Введи команду /list для вывода сохраненных мест.\n"
                                       "Введи команду /reset для удаления сохраненных мест.\n")
@@ -14,7 +14,7 @@ class MyMessageHandler:
     @staticmethod
     def add(update, context):
         context.bot.send_message(chat_id=update.effective_chat.id,
-                                 text="Введите название локации которую хочешь посетить:")
+                                 text="Введи название локации которую хочешь посетить:")
 
     @staticmethod
     def get_location_name(update, context):
